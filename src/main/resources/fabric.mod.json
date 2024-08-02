@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "untitled",
+  "version": "${version}",
+  "name": "untitled",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/untitled/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.gummiangler.untitled.client.UntitledClient"
+    ],
+    "main": [
+      "io.github.gummiangler.untitled.Untitled"
+    ]
+  },
+  "mixins": [
+    "untitled.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
